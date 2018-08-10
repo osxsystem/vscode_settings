@@ -1,0 +1,50 @@
+    {
+    "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons",
+    "workbench.colorTheme": "Monokai Pro (Filter Machine)",
+    "window.zoomLevel": 0,
+    "editor.fontFamily": "SF Mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.lineHeight": 24,
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": true,
+    "workbench.editor.enablePreview": false,
+    "explorer.openEditors.visible": 0,
+    "editor.tabCompletion": true,
+    "editor.minimap.maxColumn": 80,
+    "editor.renderLineHighlight": "gutter",
+    "workbench.colorCustomizations": {},
+    "editor.tokenColorCustomizations": {
+        
+        "[Monokai Pro (Filter Machine)]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "support.function", "meta.function-call.php"
+                    ],
+                    "settings": {
+                        "foreground": "#f49e7c",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": [
+                        "punctuation.definition.begin.bracket.curly.php"
+                    ],
+                    "settings": {
+                        "foreground": "#e8e8e8",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": [
+                        "punctuation.definition.end.bracket.curly.php"
+                    ],
+                    "settings": {
+                        "foreground": "#e7e7e7",
+                        "fontStyle": "bold"
+                    }
+                }
+            ]
+        }
+        
+    },
+}
